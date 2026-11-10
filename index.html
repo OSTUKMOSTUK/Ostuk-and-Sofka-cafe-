@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostuk and Sofka cafe</title>
+</head>
+<body>
+    <header>
+        <h1>Ostuk and Sofka cafe</h1>
+        <a href="">Головна</a>
+        <a href="">Бронювання</a>
+        <a href="">Меню</a>
+        <a href="">Галерея</a>
+    </header>
+    <main>
+        <img src="https://img.magnific.com/free-photo/interior-shot-cafe-with-chairs-near-bar-with-wooden-tables_181624-1669.jpg?semt=ais_hybrid&w=740&q=80">
+        <h2>Купи каву та не пожалій</h2>
+        <p>В цьому кафе ви потратите всі грошики<p>
+            <h1>Меню</h1>
+            <h2>Гарячі напої</h2>
+            <ol>
+            <li>Капучино</li>
+            <li>Еспрессо</li>
+            <li>Американо</li>
+            <li>Чай</li>
+            </ol>
+   <h2>Холодні напої</h2>
+   <ol>
+   <li>Кока кола</li>
+   <li>Фанта</li>
+   <li>Вода</li>
+   </ol>
+   
+   <h2>Сніданок</h2>
+   <ol>
+   <li>Омлет</li>
+   <li>Яйце варене</li>
+   <li>Яйце жарене</li>
+   </ol>
+   
+   <h2>Обід</h2>
+   <ol>
+   <li>Борщ</li>
+   <li>Чонахи</li>
+   <li>Солянка</li>
+   </ol>
+ 
+   <h2>Вечеря</h2>
+   <ol>
+   <li>Пюре з м'ясом (за бажанням)</li>
+   <li>Нагетси(6ш.)</li>
+   <li>Гречка</li>
+  </ol>
+      
+  <h2>Десерти</h2>
+   <ol>
+   <li>Кекси</li>
+   <li>Чізбургрер</li>
+   <li>Морозиво</li>
+   </ol>
+ <h1>Галерея</h1>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYptwFWCzZueY-1BwsGsuCXlaGzGlmkDANpP9m4VDUxA&s=10">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2KEgOMfmE7oiVtOCd6te73-RFgnuOFUaoYBqfh6d7XA&s=10">
+<h2>Клієнти задоволенні!</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJAH3Er6yPiYt8F6HtGFI1_GWN6-3qPAW1Hlrr1mYM9w&s=10">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgELIkslALMFAM783OejFXYCVY0dn6vuJyG4aPq2PAFg&s=10">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMlx_oHC2iBiThz7zVjYlbI81ipCtrcTBfaTbwrGGaWw&s=10">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtt-o-b_nvMbT40tpSR2yRPxmS6FSWgJMtGB_KSNKqbQ&s">
+ <div class="form-container">
+        <form action="#" method="POST">
+
+            <h2>☕ Ostuk and Sofka cafe!</h2>
+
+            <p class="description">
+                Забронюйте столик та насолоджуйтеся моментом!
+            </p>
+
+            <div class="form-group">
+                <label for="name">Ваше ім'я</label>
+                <input type="text" id="name" name="name"
+                placeholder="Введіть ваше ім'я" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Номер телефону</label>
+                <input type="tel" id="phone" name="phone"
+                placeholder="+380 XX XXX XX XX" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Дата бронювання</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Час бронювання</label>
+                <select id="time" name="time" required>
+                    <option value="">Оберіть час</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="guests">Кількість гостей</label>
+                <select id="guests" name="guests" required>
+                    <option value="">Оберіть кількість</option>
+                    <option>1 гість</option>
+                    <option>2 гості</option>
+                    <option>3 гості</option>
+                    <option>4 гості</option>
+                    <option>5 гостей</option>
+                    <option>6 гостей</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Додаткові побажання</label>
+                <textarea id="comment" name="comment"
+                placeholder="Наприклад, столик біля вікна..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Забронювати столик
+            </button>
+
+            <p class="footer-text">
+                Чекаємо на вас! ❤️
+            </p>
+
+        </form>
+    </div>
+     </main>
+    <footer>
+        <p>@Ostuk and Sofka cafe.</p>
+    </footer>
+</body>
+</html>
